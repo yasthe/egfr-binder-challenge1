@@ -7,10 +7,46 @@ designed for the Anthropic × Adaptyv Protein Design Competition, Challenge 1
 **Author.** Yannick Heimann. Work carried out September–October 2026. This is a
 personal entry to a public competition. It was not funded, does not form part of
 any research project, and does not represent any institution; no institutional
-or rented compute was used.
+or rented compute was used. The author declares no competing interests.
 
-**Funding and competing interests.** No funding was received. The author
-declares no competing interests.
+## How this work was produced
+
+**This is an AI-assisted project, and the division of labour should be clear
+before anything else in this repository is read.**
+
+All code and all analysis came from an AI assistant (Anthropic Claude,
+September–October 2026). Every script in `scripts/` was written by the
+assistant, as was the first draft of every document here. The author did not
+write these scripts, has not read them line by line, and does not have the
+computational background to audit them independently. Any statement that he
+personally verified the code would be false, and none is made.
+
+What the author did: set the objective and chose the target and the overall
+strategy; ran every computation on his own machine and saw every output; and
+made each decision between the steps — which target patches to design against,
+when to abandon a line of attack, which selection criteria to apply and in what
+order, where to place the steric threshold, which designs to submit, and that a
+documented negative result was to be preferred over a favourable-looking one.
+The responsibility for this submission is his.
+
+Because he cannot personally audit the code, three things stand in place of
+that audit, and they are the reason this repository is laid out as it is.
+First, the complete analysis scripts and the raw tool outputs they produced are
+published here (`scripts/`, `data/raw_outputs.md`), so that anyone with the
+relevant background can recheck every number. Second, the documents were
+reviewed by three independent AI reviewers that had no knowledge of how the
+work was produced: one for numerical consistency and scientific reasoning, one
+for good research practice and citation, one for competition-rules compliance.
+They found several substantive errors — among them a recomputation wrongly
+described as independent, a misread metric definition, and a misstated
+rejection count — and those corrections are recorded in METHODS.md rather than
+quietly applied. Third, every figure in these documents was traced back to the
+raw outputs during that review.
+
+The deep-learning methods used as scientific instruments — BindCraft,
+AlphaFold2, AlphaFold2-multimer and ProteinMPNN — are a separate matter from
+the assistant described above. They are documented in METHODS.md §3 and cited
+in §9.
 
 **Headline result: the pH switch was not achieved.** Of three strategies tried,
 none produced a usable difference in binding between pH 6.5 and 7.4. The best
@@ -111,27 +147,6 @@ python scripts/epitope_overlap.py einreichung_top20.csv
 read. `make_submission.py` validates the sequences against their structures and
 refuses to write the submission files if anything disagrees.
 
-## Author and AI use
-
-This work was carried out by Yannick Heimann. All design runs, analyses,
-interpretations and decisions are the author's own, and the author takes full
-responsibility for the entire content of this repository, including every line
-of code and text.
-
-An AI assistant (Anthropic Claude, used September–October 2026) provided
-substantial assistance with writing and debugging the analysis scripts in
-`scripts/`, with structuring and drafting this documentation, and with
-exploratory analysis of the numerical results. Every script was read, run and
-checked by the author against the raw outputs in `data/raw_outputs.md`, and
-every scientific claim, threshold and conclusion was verified by the author.
-The AI assistant is a tool and is not an author; responsibility for any error
-rests with the author alone.
-
-This statement concerns AI used as a writing and programming aid. The
-deep-learning methods used as scientific instruments — BindCraft, AlphaFold2,
-AlphaFold2-multimer and ProteinMPNN — are described in METHODS.md §3 and cited
-in §9.
-
 ## Software and data
 
 Tools, versions where recorded, and full citations are in METHODS.md §8 and §9.
@@ -139,3 +154,7 @@ Some version numbers were not captured at the time of the runs and are marked
 as such. Structures used: PDB 6ARU, 1YY9, 1IVO. Sequence reference:
 UniProt P00533.
 
+## Licence
+
+Code in `scripts/` is MIT licensed (`LICENSE`). Data and text are CC BY 4.0
+(`LICENSE-DATA`).

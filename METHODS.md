@@ -68,13 +68,16 @@ receptor. Each design was checked afterwards (`check_full.py`) against all
 atoms of 6ARU outside its own target patch, counting clashes, atoms within 5 Å
 and the minimum heavy-atom distance.
 
-**Definition.** "Clash" and "atoms within 5 Å" are counted by `check_full.py`.
-A clash is a heavy-atom contact below a fixed distance threshold set in that
-script; *the numerical value of that threshold was not recorded in this
-write-up*, which is a reproducibility gap, since the second headline result
-rests on it. The two quantities are not interchangeable: among the seven
-retained designs, one has zero clashes and 13 atoms within 5 Å of a
-neighbouring domain.
+**Definition.** Both quantities are counted by `check_full.py` over heavy atoms
+only. A **clash** is an atom pair whose separation falls below the sum of the
+two van der Waals radii plus a 0.4 Å tolerance, i.e. the script computes
+`overlap = r_i + r_j − d` and counts every pair with `overlap > −0.4 Å`
+(default radius 1.7 Å where the atom type is unknown; for two carbons the
+threshold is therefore ≈3.8 Å). This is a contact criterion rather than an
+overlap criterion: atoms merely touching at van der Waals distance are already
+counted. **Atoms within 5 Å** counts binder atoms, not pairs. The two are not
+interchangeable: among the seven retained designs, one has zero clashes and 13
+atoms within 5 Å of a neighbouring domain.
 
 **Result.** Under the strict criterion — zero clashes *and* no atom within 5 Å —
 **4 of 47 designs pass and 43 do not.** Per run: 0/3 in run A, 2/18 in run B,
@@ -150,11 +153,17 @@ attributed to histidine content alone.
 
 **All three strategies failed.** The 28 redesigned variants all fall on the
 wrong side, between +0.13 and +0.51 kcal/mol, including the unbiased controls.
-Across the accepted structures that were scanned (36 of the 47 accepted designs;
-the scan globbed the `Accepted/` directories and the remaining 11 produced no
-entry in the report, which was not investigated), values range from
-−0.45 to +0.52 kcal/mol. The claim that −0.45 is the best value therefore holds
-for the 36 structures scanned, not demonstrably for all 47.
+The scan covers 36 of the 47 accepted designs, and the gap is fully accounted
+for: the remaining **11 designs contain no histidine at all**, so no pKa can be
+computed and they produce no entry. Across the 36, values range from −0.45 to
++0.52 kcal/mol. Two designs fall meaningfully below zero — `s725081_mpnn13` at
+−0.449 and `s786788_mpnn10` at −0.350 — and the second of these fails the
+steric check (42 clashes, minimum distance 1.08 Å) and is not submitted. Every
+other value lies between −0.085 and +0.52.
+
+That 11 of 47 designs carry no histidine is itself informative. Together with
+the filter yields above it shows that the design pipeline places histidine
+rarely, so the pH strategy had little material to work with from the outset.
 
 **Why, as far as the data show.** For the variant examined residue by residue,
 interface histidine pKa values drop on binding, in one case from 6.41 to 4.05
@@ -340,10 +349,15 @@ on seven slots, all directed at the same region of domain III.
 | PyRosetta | PyRosetta4.Release.python310.ubuntu, 2026.29+release.80a0635 |
 | Python | 3.10 (conda environment `BindCraft`) |
 | Operating system | Windows with WSL 2, Ubuntu |
-| BindCraft | *not recorded* |
+| BindCraft | git commit `7713aa0`, 21 September 2026 |
 | AlphaFold2 weights | *not recorded* |
 | ProteinMPNN weights | `v_48_020`, soluble weight set |
-| PROPKA | *not recorded* |
+| PROPKA | 3.5.1 |
+| ColabDesign | 1.1.3 |
+| Biopython | 1.88 |
+| NumPy | 1.26.4 |
+| pandas | 2.3.3 |
+| JAX | 0.6.0 |
 | NCBI BLAST | web interface, blastp against ClusteredNR, 3 October 2026 |
 
 Entries marked *not recorded* were not captured at the time of the runs.
@@ -357,7 +371,7 @@ Entries marked *not recorded* were not captured at the time of the runs.
 - Goverde, C. A., Pacesa, M., Goldbach, N. et al. Computational design of soluble and functional membrane protein analogues. *Nature* **631**, 449–458 (2024). doi:10.1038/s41586-024-07601-y — source of the solubility-optimised ProteinMPNN weights
 - Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure prediction with AlphaFold. *Nature* **596**, 583–589 (2021). doi:10.1038/s41586-021-03819-2
 - Evans, R., O'Neill, M., Pritzel, A. et al. Protein complex prediction with AlphaFold-Multimer. *bioRxiv* 2021.10.04.463034 (v1 2021, v2 2022). doi:10.1101/2021.10.04.463034 — preprint, no journal version; the version corresponding to the weights used is not recorded
-- Ovchinnikov, S. et al. ColabDesign. https://github.com/sokrypton/ColabDesign, commit and access date *not recorded* — no publication exists; used for direct access to ProteinMPNN
+- Ovchinnikov, S. et al. ColabDesign, version 1.1.3. https://github.com/sokrypton/ColabDesign — no publication exists; used for direct access to ProteinMPNN
 
 **Evaluation**
 
@@ -392,8 +406,12 @@ EGFR sequence reference: UniProt P00533 (EGFR_HUMAN), isoform P00533-1.
 Isoelectric points and GRAVY values were computed with Biopython's `ProtParam`
 module (Bjellqvist pKa scales, Kyte–Doolittle hydropathy).
 
-The analysis scripts in `scripts/` and the text of this document were produced
-with substantial assistance from an AI assistant (Anthropic Claude,
-September–October 2026); see the AI use statement in `README.md`. All outputs
-were verified by the author against the raw tool output in
-`data/raw_outputs.md`, and the author is solely responsible for the content.
+The analysis scripts in `scripts/` and the text of this document were written
+by an AI assistant (Anthropic Claude, September–October 2026). The author did
+not write or independently audit the code and does not claim to have done so;
+he set the objectives, ran every computation, saw every output and made the
+decisions between the steps, and he is responsible for this submission. The
+scripts and the raw outputs are published so that readers with the relevant
+background can check the numbers themselves. See the statement at the top of
+`README.md` for the full division of labour and for the independent review the
+documents went through.

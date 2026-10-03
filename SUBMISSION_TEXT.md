@@ -52,11 +52,13 @@ s725081 backbone.
 ## pH dependence: a negative result
 
 The challenge asks for pH-conditional binding, and this was not achieved.
-Histidine pKa shifts on binding were estimated with PROPKA3 for 36 of the 47
-accepted structures and converted into a binding free-energy difference between
-pH 6.5 and 7.4. Values range from −0.45 to +0.52 kcal/mol, against roughly
-−1.3 kcal/mol needed for a tenfold change in affinity. The six submitted designs
-other than the best lie between +0.02 and +0.36 kcal/mol.
+Histidine pKa shifts on binding were estimated with PROPKA3 and converted into
+a binding free-energy difference between pH 6.5 and 7.4. The estimate covers 36
+of the 47 accepted designs; the other 11 contain no histidine at all. Values
+range from −0.45 to +0.52 kcal/mol, against roughly −1.3 kcal/mol needed for a
+tenfold change in affinity. Only two designs fall meaningfully below zero, and
+one of those fails the steric check and is not submitted. The six submitted
+designs other than the best lie between +0.02 and +0.36 kcal/mol.
 
 Three strategies were applied and all failed: histidine point mutations at
 interface positions, increased histidine content, and full redesign of the
@@ -93,10 +95,20 @@ is not. No genuinely independent structural rescoring was performed. Seven of 20
 permitted slots are used, on four distinct scaffolds, all directed at the same
 region of domain III.
 
-**AI use.** All design, analysis and interpretation are my own, and I take full
-responsibility for this submission. An AI assistant (Anthropic Claude,
-September–October 2026) helped write and debug the analysis scripts, draft the
-documentation, and explore the numerical results; all scripts and all scientific
-claims were checked by me against the raw outputs. The AI assistant is not an
-author. The deep-learning design methods used (BindCraft, AlphaFold2,
-ProteinMPNN) are described and cited in the methods.
+**AI use.** This is an AI-assisted entry and I want to be exact about the
+division of labour. All code and analysis came from an AI assistant (Anthropic
+Claude, September–October 2026), which wrote every analysis script and the
+first draft of this text. I did not write those scripts, have not read them
+line by line, and do not have the background to audit them independently. What
+I did was set the objective, choose the target and strategy, run every
+computation on my own machine, see every output, and make each decision in
+between — which surfaces to design against, when to abandon an approach, which
+selection criteria to apply and in what order, and which designs to submit. The
+responsibility for this submission is mine. In place of a code audit I cannot
+perform, the scripts and the raw outputs are published at
+github.com/yasthe/egfr-binder-challenge1 so that others can check the numbers,
+and the documents were reviewed by three independent AI reviewers with no
+knowledge of how the work was produced; the substantive errors they found are
+corrected and recorded in the methods. The deep-learning design methods used
+(BindCraft, AlphaFold2, ProteinMPNN) are a separate matter and are described
+and cited in the methods.
