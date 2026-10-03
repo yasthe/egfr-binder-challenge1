@@ -139,7 +139,3 @@ Some version numbers were not captured at the time of the runs and are marked
 as such. Structures used: PDB 6ARU, 1YY9, 1IVO. Sequence reference:
 UniProt P00533.
 
-## Licence
-
-Code in `scripts/` is MIT licensed (`LICENSE`). Data and text are CC BY 4.0
-(`LICENSE-DATA`).
