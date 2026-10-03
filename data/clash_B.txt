@@ -1,0 +1,12 @@
+fester Offset 309: Designrest i -> reifer Rest i+309
+Ziel behaelt 146 Reste (310-455); geprueft wird gegen 3542 Atome ausserhalb davon.
+3 Designs
+
+ Clashes  Atome<5A  minDist   RMSD  Datei
+      60        49     2.02   0.87  EGFRpH_B_l62_s216692_mpnn8_model1.pdb
+     104        83     1.73   0.90  EGFRpH_B_l69_s170491_mpnn8_model2.pdb
+     143        99     1.16   1.02  EGFRpH_B_l69_s170491_mpnn4_model2.pdb
+
+sauber: 0 / 3
+Atome<5A deutlich ueber 5 heisst: keine Clashes, aber der Binder liegt
+trotzdem an einem Teil an, der beim Design nicht existierte.

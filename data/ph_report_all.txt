@@ -1,0 +1,243 @@
+47 Designs
+
+======================================================================
+EGFRpH_B_l62_s216692_mpnn8_model1.pdb
+  His28   pKa frei  6.85 -> gebunden  6.44 (D -0.41)   ddG(6.5-7.4) +0.240 kcal/mol
+  His37   pKa frei  6.02 -> gebunden  3.95 (D -2.07)   ddG(6.5-7.4) +0.144 kcal/mol
+  His44   pKa frei  6.53 -> gebunden  6.60 (D +0.07)   ddG(6.5-7.4) -0.039 kcal/mol
+  SUMME ddG +0.344 kcal/mol  ->  0.6x fester bei pH 6.5
+======================================================================
+EGFRpH_B_l69_s170491_mpnn4_model2.pdb
+  His53   pKa frei  6.04 -> gebunden  4.07 (D -1.97)   ddG(6.5-7.4) +0.149 kcal/mol
+  His56   pKa frei  6.49 -> gebunden  5.60 (D -0.89)   ddG(6.5-7.4) +0.274 kcal/mol
+  SUMME ddG +0.423 kcal/mol  ->  0.5x fester bei pH 6.5
+======================================================================
+EGFRpH_B_l69_s170491_mpnn8_model2.pdb
+  His53   pKa frei  6.20 -> gebunden  5.08 (D -1.12)   ddG(6.5-7.4) +0.185 kcal/mol
+  His56   pKa frei  6.42 -> gebunden  5.40 (D -1.02)   ddG(6.5-7.4) +0.260 kcal/mol
+  SUMME ddG +0.445 kcal/mol  ->  0.5x fester bei pH 6.5
+======================================================================
+EGFRpH_B2_l47_s84372_mpnn12_model2.pdb
+  keine Histidine im Binder
+======================================================================
+EGFRpH_B2_l47_s84372_mpnn17_model2.pdb
+  keine Histidine im Binder
+======================================================================
+EGFRpH_B2_l48_s811300_mpnn13_model2.pdb
+  keine Histidine im Binder
+======================================================================
+EGFRpH_B2_l49_s595942_mpnn2_model2.pdb
+  keine Histidine im Binder
+======================================================================
+EGFRpH_B2_l49_s595942_mpnn3_model2.pdb
+  keine Histidine im Binder
+======================================================================
+EGFRpH_B2_l49_s845828_mpnn1_model2.pdb
+  keine Histidine im Binder
+======================================================================
+EGFRpH_B2_l49_s845828_mpnn2_model2.pdb
+  keine Histidine im Binder
+======================================================================
+EGFRpH_B2_l51_s210945_mpnn13_model1.pdb
+  His19   pKa frei  6.52 -> gebunden  4.55 (D -1.97)   ddG(6.5-7.4) +0.345 kcal/mol
+  SUMME ddG +0.345 kcal/mol  ->  0.6x fester bei pH 6.5
+======================================================================
+EGFRpH_B2_l52_s590370_mpnn4_model2.pdb
+  His13   pKa frei  6.02 -> gebunden  4.02 (D -2.00)   ddG(6.5-7.4) +0.144 kcal/mol
+  SUMME ddG +0.144 kcal/mol  ->  0.8x fester bei pH 6.5
+======================================================================
+EGFRpH_B2_l52_s590370_mpnn9_model2.pdb
+  His13   pKa frei  5.99 -> gebunden  4.06 (D -1.93)   ddG(6.5-7.4) +0.135 kcal/mol
+  SUMME ddG +0.135 kcal/mol  ->  0.8x fester bei pH 6.5
+======================================================================
+EGFRpH_B2_l53_s457194_mpnn2_model1.pdb
+  His38   pKa frei  6.44 -> gebunden  5.04 (D -1.40)   ddG(6.5-7.4) +0.292 kcal/mol
+  SUMME ddG +0.292 kcal/mol  ->  0.6x fester bei pH 6.5
+======================================================================
+EGFRpH_B2_l53_s457194_mpnn3_model1.pdb
+  His38   pKa frei  6.17 -> gebunden  5.40 (D -0.77)   ddG(6.5-7.4) +0.154 kcal/mol
+  SUMME ddG +0.154 kcal/mol  ->  0.8x fester bei pH 6.5
+======================================================================
+EGFRpH_B2_l53_s725081_mpnn13_model2.pdb
+  His18   pKa frei  6.03 -> gebunden  3.60 (D -2.43)   ddG(6.5-7.4) +0.147 kcal/mol
+  His25   pKa frei  6.38 -> gebunden  7.38 (D +1.00)   ddG(6.5-7.4) -0.596 kcal/mol  <== Schalter
+  SUMME ddG -0.449 kcal/mol  ->  2.1x fester bei pH 6.5
+======================================================================
+EGFRpH_B2_l53_s725081_mpnn9_model1.pdb
+  His18   pKa frei  6.13 -> gebunden  4.03 (D -2.10)   ddG(6.5-7.4) +0.178 kcal/mol
+  His25   pKa frei  6.31 -> gebunden  5.63 (D -0.68)   ddG(6.5-7.4) +0.184 kcal/mol
+  SUMME ddG +0.362 kcal/mol  ->  0.5x fester bei pH 6.5
+======================================================================
+EGFRpH_B2_l55_s930282_mpnn15_model2.pdb
+  His6    pKa frei  5.75 -> gebunden  4.80 (D -0.95)   ddG(6.5-7.4) +0.074 kcal/mol
+  His18   pKa frei  6.35 -> gebunden  5.82 (D -0.53)   ddG(6.5-7.4) +0.170 kcal/mol
+  SUMME ddG +0.243 kcal/mol  ->  0.7x fester bei pH 6.5
+======================================================================
+EGFRpH_B2_l55_s930282_mpnn8_model2.pdb
+  His6    pKa frei  5.82 -> gebunden  4.92 (D -0.90)   ddG(6.5-7.4) +0.084 kcal/mol
+  His18   pKa frei  6.35 -> gebunden  5.77 (D -0.58)   ddG(6.5-7.4) +0.179 kcal/mol
+  SUMME ddG +0.263 kcal/mol  ->  0.6x fester bei pH 6.5
+======================================================================
+EGFRpH_B2_l58_s629057_mpnn5_model1.pdb
+  His26   pKa frei  5.85 -> gebunden  5.57 (D -0.28)   ddG(6.5-7.4) +0.046 kcal/mol
+  SUMME ddG +0.046 kcal/mol  ->  0.9x fester bei pH 6.5
+======================================================================
+EGFRpH_B2_l58_s629057_mpnn8_model1.pdb
+  His26   pKa frei  5.88 -> gebunden  5.63 (D -0.25)   ddG(6.5-7.4) +0.045 kcal/mol
+  SUMME ddG +0.045 kcal/mol  ->  0.9x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l45_s295112_mpnn1_model2.pdb
+  His15   pKa frei  6.02 -> gebunden  5.96 (D -0.06)   ddG(6.5-7.4) +0.016 kcal/mol
+  SUMME ddG +0.016 kcal/mol  ->  1.0x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l45_s295112_mpnn2_model2.pdb
+  His15   pKa frei  5.80 -> gebunden  5.66 (D -0.14)   ddG(6.5-7.4) +0.024 kcal/mol
+  SUMME ddG +0.024 kcal/mol  ->  1.0x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l46_s483187_mpnn1_model1.pdb
+  keine Histidine im Binder
+======================================================================
+EGFRpH_C_l46_s483187_mpnn2_model2.pdb
+  keine Histidine im Binder
+======================================================================
+EGFRpH_C_l46_s573572_mpnn1_model2.pdb
+  His32   pKa frei  7.12 -> gebunden  6.34 (D -0.78)   ddG(6.5-7.4) +0.461 kcal/mol
+  SUMME ddG +0.461 kcal/mol  ->  0.5x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l46_s573572_mpnn2_model2.pdb
+  His32   pKa frei  6.59 -> gebunden  6.29 (D -0.30)   ddG(6.5-7.4) +0.150 kcal/mol
+  SUMME ddG +0.150 kcal/mol  ->  0.8x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l48_s238691_mpnn1_model2.pdb
+  His42   pKa frei  6.45 -> gebunden  5.99 (D -0.46)   ddG(6.5-7.4) +0.178 kcal/mol
+  SUMME ddG +0.178 kcal/mol  ->  0.7x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l48_s238691_mpnn2_model2.pdb
+  His42   pKa frei  6.38 -> gebunden  5.83 (D -0.55)   ddG(6.5-7.4) +0.181 kcal/mol
+  SUMME ddG +0.181 kcal/mol  ->  0.7x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l49_s11396_mpnn2_model2.pdb
+  His3    pKa frei  6.42 -> gebunden  6.86 (D +0.44)   ddG(6.5-7.4) -0.256 kcal/mol  <== Schalter
+  His13   pKa frei  6.29 -> gebunden  5.66 (D -0.63)   ddG(6.5-7.4) +0.171 kcal/mol
+  SUMME ddG -0.085 kcal/mol  ->  1.2x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l49_s11396_mpnn4_model1.pdb
+  His3    pKa frei  6.42 -> gebunden  6.83 (D +0.41)   ddG(6.5-7.4) -0.237 kcal/mol  <== Schalter
+  His13   pKa frei  6.29 -> gebunden  5.56 (D -0.73)   ddG(6.5-7.4) +0.184 kcal/mol
+  SUMME ddG -0.052 kcal/mol  ->  1.1x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l54_s137423_mpnn1_model1.pdb
+  His20   pKa frei  6.14 -> gebunden  6.08 (D -0.06)   ddG(6.5-7.4) +0.020 kcal/mol
+  His45   pKa frei  6.07 -> gebunden  5.76 (D -0.31)   ddG(6.5-7.4) +0.074 kcal/mol
+  SUMME ddG +0.094 kcal/mol  ->  0.9x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l54_s137423_mpnn3_model1.pdb
+  His20   pKa frei  7.14 -> gebunden  7.08 (D -0.06)   ddG(6.5-7.4) +0.038 kcal/mol
+  His45   pKa frei  6.01 -> gebunden  5.54 (D -0.47)   ddG(6.5-7.4) +0.089 kcal/mol
+  SUMME ddG +0.127 kcal/mol  ->  0.8x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l54_s965837_mpnn10_model1.pdb
+  keine Histidine im Binder
+======================================================================
+EGFRpH_C_l54_s965837_mpnn3_model1.pdb
+  keine Histidine im Binder
+======================================================================
+EGFRpH_C_l55_s205293_mpnn13_model2.pdb
+  His21   pKa frei  6.38 -> gebunden  6.69 (D +0.31)   ddG(6.5-7.4) -0.168 kcal/mol
+  His52   pKa frei  6.37 -> gebunden  6.13 (D -0.24)   ddG(6.5-7.4) +0.096 kcal/mol
+  SUMME ddG -0.072 kcal/mol  ->  1.1x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l55_s661569_mpnn4_model2.pdb
+  His14   pKa frei  7.03 -> gebunden  7.02 (D -0.01)   ddG(6.5-7.4) +0.006 kcal/mol
+  His33   pKa frei  5.81 -> gebunden  5.46 (D -0.35)   ddG(6.5-7.4) +0.050 kcal/mol
+  His39   pKa frei  6.33 -> gebunden  6.30 (D -0.03)   ddG(6.5-7.4) +0.013 kcal/mol
+  SUMME ddG +0.070 kcal/mol  ->  0.9x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l55_s661569_mpnn6_model2.pdb
+  His14   pKa frei  6.57 -> gebunden  6.56 (D -0.01)   ddG(6.5-7.4) +0.006 kcal/mol
+  His33   pKa frei  6.05 -> gebunden  5.86 (D -0.19)   ddG(6.5-7.4) +0.049 kcal/mol
+  His39   pKa frei  6.39 -> gebunden  6.34 (D -0.05)   ddG(6.5-7.4) +0.023 kcal/mol
+  SUMME ddG +0.077 kcal/mol  ->  0.9x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l56_s447873_mpnn17_model1.pdb
+  His43   pKa frei  6.55 -> gebunden  6.32 (D -0.23)   ddG(6.5-7.4) +0.114 kcal/mol
+  SUMME ddG +0.114 kcal/mol  ->  0.8x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l58_s400755_mpnn7_model1.pdb
+  His18   pKa frei  5.75 -> gebunden  5.45 (D -0.30)   ddG(6.5-7.4) +0.040 kcal/mol
+  His33   pKa frei  7.02 -> gebunden  6.15 (D -0.87)   ddG(6.5-7.4) +0.473 kcal/mol
+  His48   pKa frei  7.19 -> gebunden  7.18 (D -0.01)   ddG(6.5-7.4) +0.006 kcal/mol
+  SUMME ddG +0.519 kcal/mol  ->  0.4x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l58_s786788_mpnn10_model2.pdb
+  His55   pKa frei  6.15 -> gebunden  6.83 (D +0.68)   ddG(6.5-7.4) -0.350 kcal/mol  <== Schalter
+  SUMME ddG -0.350 kcal/mol  ->  1.8x fester bei pH 6.5
+======================================================================
+EGFRpH_C_l58_s786788_mpnn9_model2.pdb
+  His52   pKa frei  6.19 -> gebunden  5.84 (D -0.35)   ddG(6.5-7.4) +0.100 kcal/mol
+  His55   pKa frei  6.03 -> gebunden  5.76 (D -0.27)   ddG(6.5-7.4) +0.063 kcal/mol
+  SUMME ddG +0.162 kcal/mol  ->  0.8x fester bei pH 6.5
+======================================================================
+EGFRpH_F_l32_s730522_mpnn2_model1.pdb
+  His18   pKa frei  5.80 -> gebunden  6.14 (D +0.34)   ddG(6.5-7.4) -0.090 kcal/mol
+  His22   pKa frei  7.00 -> gebunden  6.93 (D -0.07)   ddG(6.5-7.4) +0.045 kcal/mol
+  SUMME ddG -0.044 kcal/mol  ->  1.1x fester bei pH 6.5
+======================================================================
+EGFRpH_F_l32_s730522_mpnn3_model2.pdb
+  His18   pKa frei  6.04 -> gebunden  5.93 (D -0.11)   ddG(6.5-7.4) +0.030 kcal/mol
+  His22   pKa frei  6.30 -> gebunden  6.26 (D -0.04)   ddG(6.5-7.4) +0.017 kcal/mol
+  SUMME ddG +0.046 kcal/mol  ->  0.9x fester bei pH 6.5
+======================================================================
+EGFRpH_F_l34_s472129_mpnn6_model2.pdb
+  His27   pKa frei  6.35 -> gebunden  6.19 (D -0.16)   ddG(6.5-7.4) +0.066 kcal/mol
+  SUMME ddG +0.066 kcal/mol  ->  0.9x fester bei pH 6.5
+======================================================================
+EGFRpH_F_l37_s14679_mpnn11_model1.pdb
+  His25   pKa frei  6.26 -> gebunden  6.01 (D -0.25)   ddG(6.5-7.4) +0.085 kcal/mol
+  SUMME ddG +0.085 kcal/mol  ->  0.9x fester bei pH 6.5
+======================================================================
+EGFRpH_F_l37_s14679_mpnn2_model1.pdb
+  His25   pKa frei  6.27 -> gebunden  6.32 (D +0.05)   ddG(6.5-7.4) -0.021 kcal/mol
+  SUMME ddG -0.021 kcal/mol  ->  1.0x fester bei pH 6.5
+
+======================================================================
+RANGLISTE (negativer = besserer Schalter)
+   -0.449 kcal/mol      2.1x   EGFRpH_B2_l53_s725081_mpnn13_model2.pdb
+   -0.350 kcal/mol      1.8x   EGFRpH_C_l58_s786788_mpnn10_model2.pdb
+   -0.085 kcal/mol      1.2x   EGFRpH_C_l49_s11396_mpnn2_model2.pdb
+   -0.072 kcal/mol      1.1x   EGFRpH_C_l55_s205293_mpnn13_model2.pdb
+   -0.052 kcal/mol      1.1x   EGFRpH_C_l49_s11396_mpnn4_model1.pdb
+   -0.044 kcal/mol      1.1x   EGFRpH_F_l32_s730522_mpnn2_model1.pdb
+   -0.021 kcal/mol      1.0x   EGFRpH_F_l37_s14679_mpnn2_model1.pdb
+   +0.016 kcal/mol      1.0x   EGFRpH_C_l45_s295112_mpnn1_model2.pdb
+   +0.024 kcal/mol      1.0x   EGFRpH_C_l45_s295112_mpnn2_model2.pdb
+   +0.045 kcal/mol      0.9x   EGFRpH_B2_l58_s629057_mpnn8_model1.pdb
+   +0.046 kcal/mol      0.9x   EGFRpH_B2_l58_s629057_mpnn5_model1.pdb
+   +0.046 kcal/mol      0.9x   EGFRpH_F_l32_s730522_mpnn3_model2.pdb
+   +0.066 kcal/mol      0.9x   EGFRpH_F_l34_s472129_mpnn6_model2.pdb
+   +0.070 kcal/mol      0.9x   EGFRpH_C_l55_s661569_mpnn4_model2.pdb
+   +0.077 kcal/mol      0.9x   EGFRpH_C_l55_s661569_mpnn6_model2.pdb
+   +0.085 kcal/mol      0.9x   EGFRpH_F_l37_s14679_mpnn11_model1.pdb
+   +0.094 kcal/mol      0.9x   EGFRpH_C_l54_s137423_mpnn1_model1.pdb
+   +0.114 kcal/mol      0.8x   EGFRpH_C_l56_s447873_mpnn17_model1.pdb
+   +0.127 kcal/mol      0.8x   EGFRpH_C_l54_s137423_mpnn3_model1.pdb
+   +0.135 kcal/mol      0.8x   EGFRpH_B2_l52_s590370_mpnn9_model2.pdb
+   +0.144 kcal/mol      0.8x   EGFRpH_B2_l52_s590370_mpnn4_model2.pdb
+   +0.150 kcal/mol      0.8x   EGFRpH_C_l46_s573572_mpnn2_model2.pdb
+   +0.154 kcal/mol      0.8x   EGFRpH_B2_l53_s457194_mpnn3_model1.pdb
+   +0.162 kcal/mol      0.8x   EGFRpH_C_l58_s786788_mpnn9_model2.pdb
+   +0.178 kcal/mol      0.7x   EGFRpH_C_l48_s238691_mpnn1_model2.pdb
+   +0.181 kcal/mol      0.7x   EGFRpH_C_l48_s238691_mpnn2_model2.pdb
+   +0.243 kcal/mol      0.7x   EGFRpH_B2_l55_s930282_mpnn15_model2.pdb
+   +0.263 kcal/mol      0.6x   EGFRpH_B2_l55_s930282_mpnn8_model2.pdb
+   +0.292 kcal/mol      0.6x   EGFRpH_B2_l53_s457194_mpnn2_model1.pdb
+   +0.344 kcal/mol      0.6x   EGFRpH_B_l62_s216692_mpnn8_model1.pdb
+   +0.345 kcal/mol      0.6x   EGFRpH_B2_l51_s210945_mpnn13_model1.pdb
+   +0.362 kcal/mol      0.5x   EGFRpH_B2_l53_s725081_mpnn9_model1.pdb
+   +0.423 kcal/mol      0.5x   EGFRpH_B_l69_s170491_mpnn4_model2.pdb
+   +0.445 kcal/mol      0.5x   EGFRpH_B_l69_s170491_mpnn8_model2.pdb
+   +0.461 kcal/mol      0.5x   EGFRpH_C_l46_s573572_mpnn1_model2.pdb
+   +0.519 kcal/mol      0.4x   EGFRpH_C_l58_s400755_mpnn7_model1.pdb
+
+Richtwert: ein brauchbarer Schalter braucht mindestens ~1.3 kcal/mol,
+das entspricht etwa einem Faktor 10 zwischen pH 6.5 und 7.4.

@@ -1,0 +1,13 @@
+Ziel behaelt 156 Reste (365-520); geprueft wird gegen 3480 Atome ausserhalb davon.
+5 Designs
+
+ Clashes  Atome<5A  minDist   RMSD  Datei
+    4150       532     0.18   1.19  EGFRpH_F_l37_s14679_mpnn11_model1.pdb
+    4255       538     0.16   1.17  EGFRpH_F_l37_s14679_mpnn2_model1.pdb
+    4270       495     0.15   1.16  EGFRpH_F_l32_s730522_mpnn2_model1.pdb
+    4417       503     0.28   1.04  EGFRpH_F_l32_s730522_mpnn3_model2.pdb
+    4811       564     0.24   1.46  EGFRpH_F_l34_s472129_mpnn6_model2.pdb
+
+sauber: 0 / 5
+Atome<5A deutlich ueber 5 heisst: keine Clashes, aber der Binder liegt
+trotzdem an einem Teil an, der beim Design nicht existierte.

@@ -1,0 +1,27 @@
+fester Offset 309: Designrest i -> reifer Rest i+309
+Ziel behaelt 146 Reste (310-455); geprueft wird gegen 3542 Atome ausserhalb davon.
+18 Designs
+
+ Clashes  Atome<5A  minDist   RMSD  Datei
+       0         0    12.53   0.71  EGFRpH_B2_l53_s725081_mpnn9_model1.pdb  OK
+       0         0    12.73   0.73  EGFRpH_B2_l53_s725081_mpnn13_model2.pdb  OK
+     294       128     0.65   0.80  EGFRpH_B2_l49_s845828_mpnn2_model2.pdb
+     301       135     0.70   0.83  EGFRpH_B2_l49_s845828_mpnn1_model2.pdb
+     679       120     0.35   0.69  EGFRpH_B2_l51_s210945_mpnn13_model1.pdb
+     772       183     0.14   0.81  EGFRpH_B2_l52_s590370_mpnn4_model2.pdb
+     786       190     0.21   0.70  EGFRpH_B2_l52_s590370_mpnn9_model2.pdb
+     806       188     0.31   0.72  EGFRpH_B2_l55_s930282_mpnn8_model2.pdb
+     831       191     0.34   0.76  EGFRpH_B2_l55_s930282_mpnn15_model2.pdb
+    1106       216     0.27   0.91  EGFRpH_B2_l47_s84372_mpnn12_model2.pdb
+    1108       218     0.28   0.92  EGFRpH_B2_l47_s84372_mpnn17_model2.pdb
+    1167       227     0.46   0.81  EGFRpH_B2_l53_s457194_mpnn2_model1.pdb
+    1172       218     0.30   0.68  EGFRpH_B2_l53_s457194_mpnn3_model1.pdb
+    1200       231     0.08   0.68  EGFRpH_B2_l49_s595942_mpnn2_model2.pdb
+    1216       219     0.31   0.72  EGFRpH_B2_l49_s595942_mpnn3_model2.pdb
+    1273       234     0.46   0.85  EGFRpH_B2_l48_s811300_mpnn13_model2.pdb
+    1399       281     0.26   0.80  EGFRpH_B2_l58_s629057_mpnn8_model1.pdb
+    1430       291     0.21   0.70  EGFRpH_B2_l58_s629057_mpnn5_model1.pdb
+
+sauber: 2 / 18
+Atome<5A deutlich ueber 5 heisst: keine Clashes, aber der Binder liegt
+trotzdem an einem Teil an, der beim Design nicht existierte.
