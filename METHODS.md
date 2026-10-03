@@ -309,7 +309,42 @@ this is a risk. Glycans are flexible, so it is not a definitive exclusion.
 identity is 15–32 %. The submission therefore contains four distinct molecules
 on seven slots, all directed at the same region of domain III.
 
-## 7. Limitations
+## 7. What was submitted, and an external novelty check
+
+Of the seven designs that passed the steric check, **three were submitted**:
+`EGFRpH_C_l55_s661569_mpnn4`, `EGFRpH_C_l55_s661569_mpnn6` and
+`EGFRpH_C_l45_s295112_mpnn1`, all from run C. The other four were withdrawn
+because they fell below the competition platform's novelty threshold.
+
+Proteinbase scores novelty on two axes: sequence similarity against SwissProt,
+the PDB, patent sequences and antibody databases using MMseqs2, and structural
+similarity of the predicted structure, segmented into domains and compared with
+FoldSeek and TM-align. A score of 3 of 4 is required to submit. Four designs
+scored 2 of 4 — `s725081_mpnn13`, `s725081_mpnn9`, `s295112_mpnn2` and
+`s137423_mpnn3` — and three scored 3 of 4.
+
+**This is an external check that the BLAST result alone overstated novelty.**
+Section 6 reports that blastp against ClusteredNR returns no significant
+similarity for any of the seven, with the caveat that this is weak evidence for
+45–55 residue queries. The platform's assessment is consistent with that caveat:
+since a score of 2 requires either high sequence similarity or high structural
+similarity, and no sequence relatives were found, these four most plausibly
+score on the structural axis — their predicted folds match known domains closely
+(TM-score ≥0.8 over most of the structure). That is unsurprising for small
+helical binders, of which the PDB holds a great many, but it means "no BLAST
+hit" should not have been read as novelty of fold. The platform compares against
+different databases with a different tool than the blastp search reported here,
+so the two results are complementary rather than contradictory.
+
+The practical consequence is that the submitted set is smaller and narrower than
+the analysis above describes: three designs on two backbones, both from run C,
+with no design carrying the one appreciable negative pH value in the set
+(`s725081_mpnn13`, −0.449 kcal/mol, which is among the four withdrawn). The pH
+values of the three submitted designs are +0.02, +0.07 and +0.08 kcal/mol.
+Everything else in this document describes the full campaign and the seven that
+passed the steric check, which remains the scientifically meaningful set.
+
+## 8. Limitations
 
 - No sequence was folded without its target; monomer stability is unverified.
   This would have been inexpensive to check and was omitted for lack of GPU time
@@ -342,7 +377,7 @@ on seven slots, all directed at the same region of domain III.
 - Nothing is reported about expression construct, tags, linkers or purification
   feasibility.
 
-## 8. Software versions
+## 9. Software versions
 
 | Component | Version |
 | --- | --- |
@@ -362,7 +397,7 @@ on seven slots, all directed at the same region of domain III.
 
 Entries marked *not recorded* were not captured at the time of the runs.
 
-## 9. Software and structures cited
+## 10. Software and structures cited
 
 **Design**
 

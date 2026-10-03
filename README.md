@@ -2,7 +2,11 @@
 
 De novo mini-binders against domain III of the human EGFR extracellular region,
 designed for the Anthropic × Adaptyv Protein Design Competition, Challenge 1
-(Track 3). Seven designs are submitted.
+(Track 3). Seven designs passed the checks described here; **three were
+submitted** (`s661569_mpnn4`, `s661569_mpnn6`, `s295112_mpnn1`). The other four
+fell below the competition platform's novelty threshold and were withdrawn —
+see METHODS.md §7, which also records what that external check says about the
+novelty claim made here.
 
 **Author.** Yannick Heimann. Work carried out September–October 2026. This is a
 personal entry to a public competition. It was not funded, does not form part of
@@ -68,7 +72,7 @@ harsher than the physics requires; a cut-off that tolerates van der Waals
 contact (≥3.0 Å minimum distance, ≤2 clashes) leaves seven designs and
 discards 40.
 
-## The seven submitted designs
+## The seven designs that passed the checks
 
 | Design | aa | i_pTM | ΔG | ΔSASA | SC | unsat. | hotspots | min. dist. | glycan | ΔΔG pH |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -95,7 +99,10 @@ pH 6.5; the whole column lies within the uncertainty of the method.
 
 Three pairs share a backbone (80–89 % sequence identity within a pair, 15–32 %
 across), so the seven designs represent four distinct scaffolds, all directed at
-the same region of domain III. Superposed into the EGFR–cetuximab complexes
+the same region of domain III. The three actually submitted are the first two
+rows of the s661569 pair and `s295112_mpnn1`, i.e. two scaffolds, with pH values
+of +0.07, +0.08 and +0.02 kcal/mol; the design carrying the only appreciable
+negative value, `s725081_mpnn13` at −0.45, is among the four withdrawn. Superposed into the EGFR–cetuximab complexes
 6ARU and 1YY9, all seven overlap the antibody heavy chain substantially, so all
 seven would compete with cetuximab for binding. They do not, however, all bind
 the cetuximab epitope: of each design's contacts, the s661569 pair shares 59 %
@@ -153,3 +160,8 @@ Tools, versions where recorded, and full citations are in METHODS.md §8 and §9
 Some version numbers were not captured at the time of the runs and are marked
 as such. Structures used: PDB 6ARU, 1YY9, 1IVO. Sequence reference:
 UniProt P00533.
+
+## Licence
+
+Code in `scripts/` is MIT licensed (`LICENSE`). Data and text are CC BY 4.0
+(`LICENSE-DATA`).
